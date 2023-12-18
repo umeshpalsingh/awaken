@@ -1,0 +1,1508 @@
+@media(min-width:1600px){
+    .container {
+        max-width: 1600px;
+    }
+}
+
+@media (max-width: 1599px) {
+    .site-header li a {
+        font-size: 22px;
+    }
+    .newsletter_heading {
+        font-size: 26px;
+    }
+    .newsletter_subheading {
+        font-size: 22px;
+    }
+    .newsletter_form input[type='submit'] {
+        font-size: 22px;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+    .footer-wrap {
+        max-width: 285px;
+    }
+    .menu-footer-menu li a {
+        font-size: 18px;
+    }   
+    .home-banner-box {
+        max-width: 600px;
+    }
+    .home-banner-subheading {
+        font-size: 26px;
+    } 
+    .home-banner-link {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .services_list li a .service_list_heading {
+        font-size: 26px;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 286px;
+    }
+    .mission-content p {
+        font-size: 20px;
+    }
+    .welcome_heading, .mission-heading, .testimonial-heading, .team-heading, .our-service-heading, .training-video-heading {
+        font-size: 28px;
+    }
+    .mission-box {
+        gap: 75px;
+    }
+    .welcome_section {
+        padding: 50px 0;
+    }
+    .features-section {
+        padding: 0 0 40px;
+    }
+    .testimonial-section {
+        padding: 40px 0 150px;
+    }
+    .red-stripe {
+        top: -100px;
+    }
+    .testimonial-section .testimonial-box:after {
+        top: 0%;
+        right: -100px;
+        width: 90px;
+    }
+    .about-description,
+    .team-description, 
+    .service-description, 
+    .general-description, 
+    .outdoor-content, 
+    .elite-description, 
+    .baseball-content p, 
+    .elite-fee, 
+    .youth-description,
+    .athletic-description {
+        font-size: 22px;
+    }
+    .stories-list li {
+        height: 299px;
+        max-width: 299px;
+    }
+    .banner-heading, .video-banner-heading {
+        font-size: 45px;
+    }
+    .our-service-slider .ourServices {
+        max-width: 1160px;
+    }
+    .slide-box span {
+        font-size: 22px;
+    }
+    .slide-box {
+        border-radius: 24px;
+    }
+    .services-list li {
+        font-size: 26px;
+    }
+    .our-service-stripe {
+        top: 180%;
+    }
+    .our-services {
+        padding: 90px 0;
+    }
+    .video-banner-link {
+        font-size: 17px;
+    }
+    .general-box {
+        gap: 120px;
+    }
+    .general-feature h4 {
+        font-size: 28px;
+    }
+    .general-feature p {
+        font-size: 22px;
+    }
+    .training-box {
+        max-width: 720px;
+        gap: 50px;
+    }
+    .training-heading {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .session-fee {
+        font-size: 22px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .complete-plan {
+        font-size: 20px;
+    }
+    .session-description {
+        font-size: 15px;
+    }
+    .mr-b {
+        margin-bottom: 30px;
+    }
+    .training-plan a {
+        font-size: 16px;
+        height: 44px;
+        max-width: 160px;
+    }
+    .main-video iframe, .main-video video {
+        max-width: 700px !important;
+        height: 360px !important;
+    }
+    .videos-slider .swiper.myVideos {
+        max-width: 1140px;
+    }
+    .videos-slider .swiper.myVideos .swiper-button-next, .videos-slider .swiper.myVideos .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+    .outdoor-plan {
+        font-size: 18px;
+    }
+    .elite-fee {
+        margin: 30px auto 45px;
+    }
+    .flex-baseball {
+        gap: 100px;
+    }
+    .flex-performance {
+        max-width: 1280px;
+    }
+    .perform-content h6 {
+        font-size: 70px;
+    }
+    .perform-content h6 span {
+        font-size: 90px;
+    }
+    .training-plan-section.elite.youth .training-box,
+    .training-plan-section.athletic .training-box {
+        max-width: fit-content;
+    }
+    .training-plan-section.athletic .complete-plan {
+        max-width: 300px;
+    }
+    .about-imgs li {
+        height: 320px;
+    }
+    .team-imgs li {
+        height: 340px;
+    }
+    .slide-box {
+        height: 260px;
+    }
+    .imgs-flex ul li {
+        height: 240px;
+    }
+}
+@media (max-width: 1399px) {
+    .site-header li a {
+        font-size: 20px;
+    }
+    .newsletter_heading {
+        font-size: 22px;
+    }
+    .newsletter_subheading {
+        font-size: 18px;
+    }
+    .newsletter_form input[type='email'] {
+        font-size: 18px;
+    }    
+    .newsletter_form input[type='submit'] {
+        font-size: 20px;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+    .footer_logo .description {
+        font-size: 15px;
+    }
+    .footer_logo {
+        max-width: 480px;
+    }
+    .footer-wrap.quick_links {
+        max-width: 200px;
+    }
+    .menu-footer-menu li a {
+        font-size: 16px;
+    }
+    .footer-heading {
+        font-size: 18px;
+    }
+    .main-footer {
+        padding: 100px 0 50px;
+    }
+    .home-banner-box {
+        max-width: 540px;
+    }
+    .home-banner-subheading {
+        font-size: 24px;
+    }
+    .home-banner-link {
+        margin-top: 16px;
+        font-size: 15px;
+    }
+    .home-banner:after {
+        height: 800px;
+    }
+    .services_list {
+        gap: 40px;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 249px;
+    }
+    .services_list li a .service_list_heading {
+        font-size: 20px;
+        max-width: 200px;
+    }
+    .welcome_heading, .mission-heading, .testimonial-heading, .team-heading, .our-service-heading, .training-video-heading {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+    .welcome_heading {
+        margin-bottom: 20px;
+    }
+    .welcome_description,
+    .about-description, 
+    .team-description, 
+    .testimonial-description, 
+    .service-description, 
+    .general-description, 
+    .outdoor-content, 
+    .elite-description, 
+    .baseball-content p, 
+    .youth-description,
+    .athletic-description {
+        font-size: 19px;
+    }
+    .mission-content p {
+        font-size: 18px;
+    }
+    .mission-section {
+        padding: 50px 0 80px;
+    }
+    .testimonial-section {
+        padding: 40px 0 100px;
+    }
+    .red-stripe {
+        top: -50px;
+    }
+    .testimonial-section .testimonial-box:after {
+        top: 0%;
+        right: -50px;
+        width: 80px;
+        transform: rotate(36deg);
+    }
+    .story-heading {
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+    .stories-list {
+        gap: 24px;
+    }
+    .stories-list li {
+        height: 261px;
+        max-width: 261px;
+    }
+    .story-stripe {
+        top: -92%;
+    }
+    .team-section {
+        padding: 0 0 50px;
+    }
+    .team-awaken img {
+        height: 600px;
+    }
+    .our-service-slider .ourServices {
+        max-width: 1024px;
+    }
+    .slide-box {
+        border-radius: 20px;
+    }
+    .our-service-slider .swiper-button-prev, .our-service-slider .swiper-rtl .swiper-button-next {
+        left: -20px;
+    }
+    .our-service-slider .swiper-button-next, .our-service-slider .swiper-rtl .swiper-button-prev {
+        right: -20px;
+    }
+    .slide-box span {
+        font-size: 20px;
+        max-width: 220px;
+    }
+    .our-services {
+        padding: 80px 0;
+        background-size: 520px;
+    }    
+    .services-list li {
+        font-size: 22px;
+    }  
+    .video-banner-link {
+        font-size: 16px;
+    } 
+    .general-feature-box {
+        max-width: 540px;
+    } 
+    .general-feature h4 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .general-feature p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .general-feature {
+        margin-bottom: 40px;
+    }
+    .training-box {
+        gap: 40px;
+    }
+    .main-video iframe, .main-video video {
+        max-width: 600px !important;
+        height: 320px !important;
+    }
+    .para {
+        font-size: 18px;
+    }
+    .videos-slider .swiper.myVideos {
+        max-width: 980px;
+    }
+    .outdoor-price {
+        font-size: 22px;
+    }
+    .outdoor-gallery {
+        gap: 70px;
+    }
+    .elite-description {
+        padding-bottom: 60px;
+    }
+    .flex-baseball {
+        gap: 100px;
+    }
+    .baseball-content {
+        max-width: 500px;
+    }
+    .flex-baseball {
+        gap: 80px;
+    }
+    .flex-performance {
+        max-width: 1180px;
+    }
+    .perform-content h6 {
+        font-size: 60px;
+    }
+    .perform-content h6 span {
+        font-size: 80px;
+    }
+    .base-img {
+        height: 250px;
+    }
+    .about-imgs li {
+        height: 280px;
+    }
+    .team-imgs {
+        gap: 60px;
+    }
+    .team-imgs li {
+        height: 320px;
+    }
+    .slide-box, .imgs-flex ul li {
+        height: 230px;
+    }
+}
+@media (max-width: 1199px) {
+    .site-header li a {
+        font-size: 18px;
+    }
+    .newsletter_heading {
+        font-size: 20px;
+    }
+    .newsletter_subheading {
+        font-size: 15px;
+    }
+    .newsletter_form input[type='email'] {
+        width: 280px;
+    }
+    .newsletter_form input[type='email'] {
+        font-size: 16px;
+    }
+    .newsletter_form input[type='submit'] {
+        font-size: 18px;
+    }
+    .copyright p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .footer-wrap.quick_links {
+        max-width: 150px;
+    }
+    .footer_logo {
+        max-width: 390px;
+    }
+    .footer_logo .description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .home-banner {
+        height: calc(100vh - 100px);
+    }
+    .home-banner-box {
+        max-width: 480px;
+    }
+    .home-banner-subheading {
+        font-size: 20px;
+    }
+    .home-banner-link {
+        margin-top: 10px;
+        padding: 12px 40px;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 204px;
+        height: 200px;
+    }
+    .services_list li a .service_list_heading {
+        font-size: 18px;
+        max-width: 180px;
+        margin-top: 20px;
+    }
+    .icon img {
+        width: 50px;
+        height: 50px;
+    }
+    .welcome_heading, .mission-heading, .testimonial-heading, .team-heading, .our-service-heading, .training-video-heading {
+        font-size: 24px;
+    }
+    .welcome_description, .mission-content p, .team-description, .testimonial-description, .service-description {
+        font-size: 16px;
+    }
+    .testimonial-box .myTestimonial iframe {
+        max-width: 700px !important;
+        height: 360px !important;
+    }
+    .red-stripe {
+        top: 0px;
+    }
+    .about-description {
+        font-size: 16px;
+    }
+    .story-heading {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .stories-list li {
+        height: 216px;
+        max-width: 216px;
+    }
+    .banner-heading, .video-banner-heading {
+        font-size: 40px;
+    }
+    .story-stripe {
+        display: none;
+    }
+    .team-imgs {
+        gap: 40px;
+    }
+    .testimonials-list {
+        gap: 40px;
+    }
+    .testimonials-list li {
+        max-width: 448px !important;
+    }
+    .service-description {
+        margin-bottom: 40px;
+    }
+    .our-service-slider .ourServices {
+        max-width: 840px;
+    }
+    .slide-box span {
+        font-size: 16px;
+    }
+    .slide-box {
+        border-radius: 16px;
+    }
+    .our-service-slider .swiper-button-next, .our-service-slider .swiper-button-prev {
+        width: 34px;
+        height: 34px;
+        background-size: cover;
+    }
+    .our-service-slider .swiper-button-prev, .our-service-slider .swiper-rtl .swiper-button-next {
+        left: -10px;
+    }
+    .our-service-slider .swiper-button-next, .our-service-slider .swiper-rtl .swiper-button-prev {
+        right: -10px;
+    }
+    .our-services {
+        padding: 60px 0;
+        background-size: 400px;
+    }
+    .services-list li {
+        font-size: 20px;
+    }
+    .our-service-stripe, .performance-stripe {
+        display: none;
+    }
+    .our-service-heading {
+        margin-bottom: 40px;
+    }
+    .slide-box span {
+        max-width: 180px;
+    }
+    .site-header .main-navigation ul li .sub-menu li a {
+        font-size: 16px;
+    }
+    .general-description {
+        line-height: 1.6;
+    }
+    .general-box {
+        gap: 80px;
+    }
+    .general-feature-box {
+        max-width: 460px;
+    }
+    .general-feature h4 {
+        font-size: 24px;
+    }
+    .general-feature p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .training-heading {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .session-fee {
+        font-size: 20px;
+    }
+    .complete-plan, .elite-description, .baseball-content p, .elite-fee, .youth-description, .athletic-description {
+        font-size: 18px;
+    }
+    .elite-description, .baseball-content p, .youth-description, .athletic-description {
+        line-height: 1.6;
+    }
+    .baseball-content {
+        max-width: 440px;
+    }
+    .main-video iframe, .main-video video {
+        max-width: 500px !important;
+        height: 300px !important;
+    }
+    .videos-slider .swiper.myVideos {
+        max-width: 780px;
+    }
+    .video-stripe, .video-slider-stripe, .outdoor-gallery-stripe {
+        display: none;
+    }
+    .outdoor-gallery {
+        gap: 50px;
+    }
+    .flex-baseball {
+        gap: 60px;
+    }
+    .blend {
+        padding: 0 10px;
+    }
+    .elite-description {
+        padding-bottom: 40px;
+    }
+    .flex-performance {
+        max-width: 960px;
+        gap: 40px;
+    }
+    .performance-img {
+        width: 50%;
+    }
+    .perform-content h6 {
+        font-size: 50px;
+    }
+    .perform-content h6 span {
+        font-size: 70px;
+    }
+    .about-imgs li {
+        height: 200px;
+    }
+    .slide-box {
+        height: 190px;
+    }
+    .slider-wrapper {
+        gap: 20px;
+    }
+    .imgs-flex ul li {
+        height: 200px;
+    }
+}
+@media (max-width: 991px) {
+    .site-header .main-navigation {
+        gap: 40px;
+    }
+    .site-header .main-navigation ul {
+        gap: 40px;
+    }
+    .site-header .main-navigation ul li .sub-menu {
+        transform: translateX(-10%);
+        max-width: 200px;
+    }
+    .site-header .main-navigation ul li .sub-menu li a {
+        font-size: 14px;
+    }
+    .newsletter_box {
+        gap: 30px;
+    }
+    .newsletter_heading {
+        font-size: 18px;
+    }
+    .newsletter_subheading {
+        font-size: 14px;
+    }
+    .newsletter_form input[type='email'] {
+        width: 260px;
+    }
+    .newsletter_form input[type='submit'] {
+        max-width: 100px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .footer_box {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .footer_logo {
+        order: 1;
+        align-items: start;
+        gap: 10px;
+        max-width: 100%;
+    }
+    .footer_logo .description {
+        text-align: left;
+        line-height: 1.6;
+    }
+    .footer-wrap {
+        gap: 10px;
+    }
+    .menu-footer-menu {
+        padding: 0;
+    }
+    .main-footer {
+        padding: 60px 0 50px;
+    }
+    .home-banner {
+        height: auto;
+    }
+    .home-banner:after {
+        height: 500px;
+    }
+    .home-banner-box {
+        max-width: 420px;
+    }
+    .home-banner-subheading {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    .home-banner-link {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .services_list {
+        gap: 20px;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 159px;
+        height: 159px;
+    }
+    .icon img {
+        width: 40px;
+        height: 40px;
+    }
+    .services_list li a .service_list_heading {
+        font-size: 15px;
+        max-width: 150px;
+        margin-top: 10px;
+    }
+    .welcome_description, .mission-content p, .about-description, .testimonial-description {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .mission-box {
+        flex-direction: column;
+    }
+    .mission-img {
+        max-width: 100%;
+    }
+    .mission-box {
+        gap: 50px;
+    }
+    .testimonial-box .myTestimonial iframe {
+        max-width: 500px !important;
+        height: 300px !important;
+    }
+    .welcome_section, .mission-section {
+        padding: 40px 0;
+    }
+    .testimonial-heading {
+        margin-bottom: 40px;
+    }
+    .testimonial-section {
+        padding: 40px 0 80px;
+    }
+    .red-stripe {
+        display: none;
+    }
+    .welcome_section, .mission-section {
+        background-size: 20%;
+        background-position: center;
+    }
+    .about-imgs {
+        flex-wrap: wrap;
+    }
+    .banner-stripe {
+        display: none;
+    }
+    .about-imgs li {
+        max-width: 330px;
+        width: 100%;
+        height: 330px;
+    }
+    .about-imgs li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about-welcome {
+        padding: 60px 0;
+    }
+    .banner-section {
+        height: 540px;
+    }    
+    .team-description {
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 10px auto 40px;
+    }
+    .team-awaken {
+        display: none;
+    }
+    .testimonials-list li {
+        max-width: 328px !important;
+        height: 200px;
+    }
+    .testimonial-content {
+        padding: 0 0 40px;
+    }
+    .slider-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .slider-wrapper {
+        flex-wrap: wrap;
+    }
+    .slide-box {
+        max-width: 45%;
+        border-radius: 24px;
+        height: 250px;
+    }
+    .services-flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .services-flex .services-img, .services-flex .services-list {
+        max-width: 100%;
+    }
+    .services-list {
+        gap: 30px;
+    }
+    .services-list {
+        padding-left: 120px;
+    }
+    .our-services {
+        background-position-y: 95%;
+        background-position-x: center;
+    }
+    .video-wrapper {
+        height: 540px;
+    }
+    .video-banner-heading {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .video-banner-link {
+        font-size: 15px;
+        padding: 12px 40px;
+    }
+    .general-description {
+        font-size: 17px;
+    }
+    .general-feature-box {
+        max-width: 100%;
+    }
+    .general-box {
+        flex-direction: column;
+        gap: 50px;
+        padding: 10px 0 40px;
+    }
+    .training-box {
+        margin: 0 auto;
+        gap: 30px;
+    }
+    .videos-slider .swiper.myVideos {
+        max-width: 600px;
+    }
+    .videos-slider .swiper.myVideos .swiper-button-next, .videos-slider .swiper.myVideos .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+    .outdoor-gallery {
+        gap: 30px;
+    }
+    .elite-description, .youth-description {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .flex-baseball, .flex-baseball.flex-row-reverse {
+        flex-direction: column !important;
+        gap: 40px;
+    }
+    .baseball-content {
+        max-width: 500px;
+    }
+    .baseball-content p {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+    .flex-performance {
+        padding: 40px 10px;
+        flex-direction: column !important;
+    }
+    .perform-content h6 {
+        font-size: 40px;
+    }
+    .perform-content h6 span {
+        font-size: 60px;
+    }
+    .athletic-description {
+        font-size: 16px;
+        padding-bottom: 40px;
+    }
+    .home-banner-heading, .home-banner-subheading, .home-banner-heading:after {
+        animation: none;
+    }
+    .team-imgs li {
+        height: 265px;
+    }
+    .imgs-flex ul {
+        justify-content: center;
+    }
+    .imgs-flex ul li {
+        max-width: 100%;
+        width: 100%;
+        height: 350px;
+    }
+}
+@media (max-width: 767px) {
+    .site-header .main-navigation {
+        display: none;
+    }
+    .mobile-header-logo-part {
+        display: flex;
+    }
+    .margin-top {
+        margin-top: 73px;
+    }
+    .newsletter_box {
+        flex-direction: column;
+        gap: 16px;
+        align-items: start;
+    }
+    .main-footer {
+        padding: 40px 0;
+    }
+    .home-banner-box {
+        max-width: 360px;
+    }
+    .home-banner-subheading {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .home-banner-link {
+        font-size: 12px;
+    }
+    .home-banner:after {
+        height: 200px;
+    }
+    .services_list li.black {
+        background: #DE0E0E;
+    }
+    .services_list li.black .icon .white-img {
+        display: inline-block;
+    }
+    .services_list li.black .icon .red-img {
+        display: none;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 48%;
+        height: 160px;
+    }
+    .services_list li.red:hover {
+        background: #de0e0e;
+    }
+    .services_list li.red:hover {
+        background: rgba(222, 14, 14, 0.20);
+    }
+    .services_list li.red:hover .red-img {
+        display: none;
+    }
+    .services_list li.red:hover .white-img {
+        display: inline-block   ;
+    }
+    .welcome_heading, .mission-heading, .testimonial-heading, .our-service-heading {
+        font-size: 20px;
+    }
+    .welcome_description, .mission-content p, .about-description, .testimonial-description {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .testimonial-box .myTestimonial iframe {
+        max-width: 400px !important;
+        height: 260px !important;
+    }
+    .testimonial-box .myTestimonial .swiper-button-next, .testimonial-box .myTestimonial .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+    .testimonial-heading {
+        margin-bottom: 20px;
+    }
+    .banner-section {
+        height: 420px;
+    }
+    .banner-heading {
+        font-size: 36px;
+    }
+    .banner-section:before {
+        height: 200px;
+    }
+    .about-imgs li {
+        max-width: 240px;
+        width: 100%;
+        height: 230px;
+    }
+    .story-heading {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .team-heading {
+        font-size: 22px;
+    }
+    .stories-list li {
+        height: 246px;
+        max-width: 246px;
+    }
+    .team-description {
+        font-size: 14px;
+    }
+    .team-imgs {
+        gap: 20px;
+    }
+    .testimonials-list {
+        gap: 10px;
+        row-gap: 20px;
+    }
+    .testimonials-list li {
+        max-width: 252px !important;
+        height: 180px;
+    }
+    .testimonial-description {
+        margin-bottom: 10px;
+    }
+    .slide-box {
+        max-width: 40%;
+        height: 200px;
+    }
+    .slide-box span {
+        max-width: 150px;
+        font-size: 15px;
+    }
+    .services-list {
+        gap: 20px;
+        padding-left: 30px;
+    }
+    .services-list li {
+        font-size: 18px;
+    }
+    .our-services {
+        background-size: 300px;
+    }
+    .video-wrapper {
+        height: 420px;
+    }
+    .video-banner-heading {
+        font-size: 32px;
+        margin-bottom: 20px;
+        line-height: 36px;
+    }
+    .video-banner-link {
+        font-size: 14px;
+    }
+    .general-description {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .general-feature h4 {
+        font-size: 22px;
+    }
+    .general-feature p {
+        font-size: 16px;
+    }
+    .general-box {
+        padding: 10px 0;
+    }
+    .training-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .training-plan-section {
+        background-size: cover;
+    }
+    .training-plan-section {
+        background-size: cover;
+        background-position: center;
+    }
+    .videos-slider .swiper.myVideos {
+        max-width: 440px;
+        margin: 30px auto 0;
+    }
+    .outdoor-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .outdoor-content {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .elite-description, .youth-description, .athletic-description {
+        font-size: 15px;
+    }
+    .flex-baseball {
+        padding: 40px 0;
+    }
+    .performance-img {
+        width: 100%;
+        justify-content: center;
+    }
+    .perform-content h6 {
+        font-size: 30px;
+    }
+    .perform-content h6 span {
+        font-size: 40px;
+    }
+    .base-img {
+        min-width: auto;
+        max-width: 220px;
+        width: 100%;
+    }
+    .team-imgs li {
+        height: 220px;
+    }    
+    .imgs-flex ul li {
+        height: 270px;
+    }
+}
+@media (max-width: 575px) {
+    .newsletter_form input[type='email'], .newsletter_form input[type='submit'] {
+        font-size: 15px;
+    }
+    .copyright p {
+        font-size: 13px;
+    }
+    .home-banner-box {
+        max-width: 100%;
+    }
+    .home-banner-subheading {
+        padding: 10px 0;
+    }
+    .home-banner-link {
+        font-size: 10px;
+    }
+    .home-banner-heading:after {
+        height: 4px;
+    }
+    .home-banner-heading {
+        max-width: 200px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 200px;
+    }
+    .services_list {
+        justify-content: center;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 46%;
+    }
+    .welcome_heading {
+        max-width: 430px;
+    }
+    .banner-section {
+        height: 320px;
+    }
+    .banner-heading {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .about-imgs, .stories-list {
+        gap: 20px;
+        justify-content: center;
+    }   
+    .about-imgs li, .stories-list li {
+        max-width: 47%;
+        height: 200px;
+    }
+    .stories-section {
+        padding-top: 20px;
+    }
+    .overlay-success {
+        padding: 40px 0;
+    }
+    .story-heading {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .team-heading {
+        font-size: 20px;
+    }
+    .team-description {
+        font-size: 13px;
+    }
+    .team-imgs li {
+        max-width: 50%;
+        width: 100%;
+        height: auto;
+    }
+    .testimonials-list li {
+        max-width: 100% !important;
+        height: 280px;
+    }
+    .container-overlay {
+        background: rgba(0,0,0,.7);
+    }
+    .service-description {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .slide-box {
+        height: 190px;
+    }
+    .our-service-slider .swiper-button-prev, .our-service-slider .swiper-rtl .swiper-button-next {
+        left: 0;
+    }
+    .our-service-slider .swiper-button-next, .our-service-slider .swiper-rtl .swiper-button-prev {
+        right: 0;
+    }
+    .services-list li {
+        font-size: 16px;
+    }
+    .video-wrapper {
+        height: 300px;
+    }
+    .video-banner-heading {
+        font-size: 28px;
+    }
+    .video-banner-link {
+        font-size: 12px;
+    }
+    .video-banner::after {
+        height: 200px;
+    }
+    .video-overlay {
+        background: rgba(0,0,0,.7);
+    }
+    .general-description, .general-feature p, .elite-description {
+        font-size: 14px;
+    }
+    .session-fee {
+        font-size: 18px;
+    }
+    .training-plan a {
+        font-size: 15px;
+        height: 40px;
+        max-width: 150px;
+    }
+    .training-plan {
+        padding: 30px 20px;
+    }
+    .training-videos-section {
+        padding: 40px 0;
+    }
+    .training-video-heading {
+        font-size: 22px;
+    }
+    .para {
+        font-size: 16px;
+    }
+    .videos-slider .swiper.myVideos {
+        max-width: 90%;
+    }
+    .outdoor-content {
+        font-size: 17px;
+    }
+    .outdoor-gallery-section {
+        padding: 40px 0;
+    }
+    .baseball-content p {
+        font-size: 15px;
+        padding: 20px 0 0;
+    }
+    .youth-description, .athletic-description {
+        font-size: 14px;
+    }
+    .perform-content h6 {
+        font-size: 30px;
+    }
+    .perform-content h6 span {
+        font-size: 40px;
+    }
+    .features-section {
+        padding: 40px 0;
+    }
+    .imgs-flex ul li {
+        height: auto;
+    }
+}
+@media (max-width: 428px) {
+    .newsletter_form input[type='email'], .newsletter_form input[type='submit'] {
+        font-size: 14px;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+    .footer-heading, .elite-fee {
+        font-size: 16px;
+    }
+    .elite-description {
+        padding-bottom: 0;
+    }
+    .footer_logo .description {
+        text-align: justify;
+        line-height: 1.4;
+        font-size: 13px;
+    }
+    .menu-footer-menu li a {
+        font-size: 14px;
+    }
+    .newsletter_form, .newsletter_form form {
+        width: 100%;
+    }
+    .home-banner-heading {
+        max-width: 120px;
+    }
+    .home-banner-subheading {
+        padding: 6px 0;
+        font-size: 12px;
+    }
+    .home-banner-link {
+        padding: 8px 24px;
+        font-size: 10px;
+    }
+    .home-banner:after {
+        height: 100px;
+    }
+    .testimonial-section {
+        padding: 30px 0 60px;
+    }
+    .welcome_heading, .mission-heading, .testimonial-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .welcome_description, .mission-content p, .about-description, .testimonial-description {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    .welcome_section, .mission-section {
+        padding: 30px 0;
+    }
+    .mission-box {
+        gap: 30px;
+    }
+    .right_following {
+        transform: translateX(68px);
+    }
+    .about-imgs, .stories-list {
+        padding: 30px 0 0;
+    }
+    .about-welcome {
+        padding: 50px 0;
+    }
+    .about-imgs li, .stories-list li {
+        height: 160px;
+    }
+    .story-heading {
+        margin-bottom: 10px;
+    }   
+    .team-heading {
+        font-size: 18px;
+    }
+    .team-description {
+        font-size: 12px;
+    } 
+    .testimonials-list li {
+        height: 220px;
+    }
+    .service-description {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .slide-box {
+        height: 390px;
+        max-width: 100%;
+        width: 90%;
+        border-radius: 32px;
+    }
+    .slide-box span {
+        max-width: 220px;
+        font-size: 22px;
+    }
+    .our-service-slider .swiper-button-prev, .our-service-slider .swiper-rtl .swiper-button-next {
+        left: -10px;
+    }
+    .our-service-slider .swiper-button-next, .our-service-slider .swiper-rtl .swiper-button-prev {
+        right: -10px;
+    }
+    .our-services {
+        padding: 40px 0;
+    }
+    .our-service-heading {
+        margin-bottom: 20px;
+    }   
+    .video-wrapper {
+        height: 220px;
+    }
+    .video-banner-heading {
+        font-size: 24px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .video-banner-link {
+        font-size: 10px;
+        padding: 10px 20px;
+    }  
+    .general-description, .general-feature p, .elite-description, .athletic-description {
+        font-size: 13px;
+    }   
+    .general-feature h4 {
+        font-size: 20px;
+    }
+    .imgs-flex ul li img {
+        border-radius: 25px;
+    }
+    .imgs-flex ul, .imgs-flex {
+        gap: 10px;
+    }
+    .training-heading {
+        font-size: 18px;
+    }
+    .session-fee, .complete-plan {
+        font-size: 16px;
+    }
+    .session-description, .training-plan a, .baseball-content p {
+        font-size: 14px;
+    }
+    .videos-slider .swiper.myVideos .swiper-slide iframe {
+        max-width: 100% !important;
+        height: 200px !important;
+    }
+    .main-video iframe, .main-video video {
+        height: 240px !important;
+    }
+    .outdoor-content {
+        font-size: 15px;
+    }
+    .outdoor-gallery {
+        grid-template-columns: 1fr;
+    }
+    .baseball-img {
+        gap: 10px;
+    }
+    .para {
+        font-size: 15px;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    .youth-description {
+        font-size: 13px;
+    }
+    .base-img img {
+        border-radius: 24px;
+    }
+    .perform-content h6 {
+        font-size: 20px;
+    }
+    .perform-content h6 span {
+        font-size: 30px;
+    }
+    .performance-img {
+        gap: 10px;
+    }   
+    .base-img {
+        height: 220px;
+    }
+    .banner-section {
+        gap: 16px;
+    }
+    @keyframes slideUp {
+        0% {
+            transform: translateY(500%);
+        } 
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+@media (max-width: 360px) {
+    .newsletter_form input[type='email'], .newsletter_form input[type='submit'] {
+        font-size: 13px;
+    }
+    .copyright p {
+        font-size: 10px;
+    }
+    .menu-footer-menu li a, .contact-list li a {
+        font-size: 13px;
+    }
+    .footer_logo .description, .elite-description, .youth-description, .athletic-description {
+        font-size: 12px;
+    }
+    .services_list li.red, .services_list li.black {
+        max-width: 100%;
+    }
+    .about-imgs li, .stories-list li {
+        height: auto;
+        max-width: 100%;
+    }
+    .banner-section {
+        height: 280px;
+    }
+    .banner-heading {
+        font-size: 28px;
+    }
+    .service-description, .session-description, .training-plan a {
+        font-size: 13px;
+    }
+    .slide-box {
+        height: 260px;
+        border-radius: 16px;
+    }
+    .slide-box span {
+        font-size: 20px;
+    }
+    .general-description, .general-feature p {
+        font-size: 12px;
+    }
+    .general-feature h4 {
+        font-size: 18px;
+    }
+    .imgs-flex ul li img {
+        border-radius: 20px;
+    }
+    .outdoor-content {
+        font-size: 14px;
+    }
+    .video-banner-heading {
+        font-size: 20px;
+    }
+}
