@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awaken</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/awaken.svg"> 
+    <!-- Animations AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Custom Styles CSS -->
+    <link rel="stylesheet" href="assets/css/awaken.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="menu-item"><a href="the-team.html">The Team</a></li>
+                </ul>
+                <div class="site-logo">
+                    <a href="index.html"><img class="img-fluid" src="assets/images/awaken.svg" alt="Awaken" /></a>
+                </div>
+                <ul class="menu-list second">
+                    <li class="menu-item menu-item-has-children">
+                        <a href="services.html">Services</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="general-fitness.html">General Fitness</a></li>
+                            <li class="menu-item"><a href="elite-baseball.html">Elite Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item"><a href="youth-baseball.html">Youth Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item current-menu-item"><a href="athletic.html">Athletic Performance</a></li>
+                            <li class="menu-item"><a href="outdoor.html">Outdoor Batting Cage Rental</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-header-logo-part">
+                <div class="mobile-logo">
+                    <a href="index.html"><img class="img-fluid" src="assets/images/awaken.svg" alt="Awaken" /></a>
+                </div>
+                <div class="mobile-toggle" onclick="hamburger()">
+                    <button class="hamburger hamburger-one"></button>
+                </div>
+            </div>
+            <div class="side-mobile-menu" id="sidemenu">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="menu-item"><a href="the-team.html">The Team</a></li>
+                    <li class="menu-item">
+                        <a href="services.html">Services</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="general-fitness.html">General Fitness</a></li>
+                            <li class="menu-item"><a href="elite-baseball.html">Elite Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item"><a href="youth-baseball.html">Youth Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item current-menu-item"><a href="athletic.html">Athletic Performance</a></li>
+                            <li class="menu-item"><a href="outdoor.html">Outdoor Batting Cage Rental</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="margin-top"></div>
+    <!-- header -->
+
+    <section class="video-banner">
+        <div class="video-wrapper">
+            <video src="assets/videos/athletic performance video banner.mp4" muted loop autoplay playsinline></video>
+        </div>
+        <div class="video-overlay">
+            <div class="container">
+                <div class="video-banner-box">
+                    <h1 class="video-banner-heading">Athletic Performance</h1>
+                    <a class="video-banner-link" href="https://calendly.com/awakenperformancetraining/athletic-performance?month=2023-12" target="_blank">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-stripe" data-aos="slide-down">
+            <img class="img-fluid" src="assets/images/about-red-stripe1.svg" alt="...">
+        </div>
+    </section>
+
+    <section class="athletic-section">
+        <div class="container">
+            <p class="athletic-description">
+                While AWAKEN does draw a lot of interest from baseball players. AWAKEN also reserves time slots for athletes of all sports. The RAW series offers athletes from other sports the opportunity to train to develop explosive power. Sessions are focused on developing elite conditioning, reaction, and explosion that will translate onto any court or field. For a more individualized session, AWAKEN also offers private training.
+            </p>
+        </div>
+    </section>
+
+    <div class="performance-flexbox">
+        <div class="blown">
+            <div class="flex-performance flex-row-reverse">
+                <div class="performance-img" data-aos="fade-down">
+                    <div class="base-img"><img class="img-fluid" src="assets/images/run1.jpg" alt="run"></div>
+                    <div class="base-img"><img class="img-fluid" src="assets/images/athletic3.jpg" alt="athletic3"></div>
+                </div>
+                <div class="perform-content" data-aos="fade-up">
+                    <h6><sup>Run</sup><span>&</span><sub>Dribble</sub></h6>
+                </div>
+            </div>
+        </div>
+        <div class="blown">
+            <div class="flex-performance">
+                <div class="performance-img" data-aos="fade-down">
+                    <div class="base-img"><img class="img-fluid" src="assets/images/flip.jpg" alt="flip"></div>
+                    <div class="base-img"><img class="img-fluid" src="assets/images/athletic1.jpg" alt="athletic"></div>
+                </div>
+                <div class="perform-content" data-aos="fade-up">
+                    <h6><sup>Flip</sup><span>&</span><sub>Shoot</sub></h6>
+                </div>
+            </div>
+        </div>
+        <div class="blown">
+            <div class="flex-performance flex-row-reverse">
+                <div class="performance-img" data-aos="fade-down">
+                    <div class="base-img"><img class="img-fluid" src="assets/images/pass.jpg" alt="pass"></div>
+                    <div class="base-img"><img class="img-fluid" src="assets/images/athletic2.jpg" alt="athletic"></div>
+                </div>
+                <div class="perform-content" data-aos="fade-up">
+                    <h6><sup>Catch</sup><span>&</span><sub>Pass</sub></h6>
+                </div>
+            </div>
+        </div>
+        <div class="blown">
+            <div class="flex-performance">
+                <div class="performance-img" data-aos="fade-down">
+                    <div class="base-img"><img class="img-fluid" src="assets/images/athletic4.jpg" alt="athletic4"></div>
+                    <div class="base-img"><img class="img-fluid" src="assets/images/spike.jpg" alt="spike"></div>
+                </div>
+                <div class="perform-content" data-aos="fade-up">
+                    <h6><sup>Throw</sup><span>&</span><sub>Spike</sub></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="training-plan-section athletic" style="background-image: url(assets/images/athletic-training-bg.jpg);">
+        <div class="container">
+            <div class="training-box">
+                <div class="training-plan" style="background-image: url(assets/images/plan-stripe.svg);" data-aos="fade-down">
+                    <p class="session-description mb-3">
+                        While Awaken does draw a lot of interest from baseball players, slots are available to train athletes of other sports. sessions are done in a private setting geared towards the athletes goals and feature sport specific lifts, condition and skill work.
+                    </p>
+                    <p class="session-fee">$100/ session</p>
+                    <p class="complete-plan">$540/month 2x a week (3month commit)</p>
+                    <p class="session-description mr-b">
+                        *all monthly packages include an individualized nutrition plan.*
+                    </p>
+                    <a href="https://calendly.com/awakenperformancetraining/athletic-performance?month=2023-12" target="_blank">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="training-videos-section">
+        <div class="video-slider-stripe" data-aos="slide-down">
+            <img class="img-fluid" src="assets/images/video-slider-stripe.svg" alt="...">
+        </div>
+        <div class="container">
+            <div class="training-videos-box">
+                <h4 class="training-video-heading">Videos</h4>
+                <div class="main-video" id="updateVideo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VNFY-ICuNR4?si=W_66WyemPMrOoIOm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <p class="para bb">More Related Videos</p>
+                <div class="videos-slider">
+                    <div class="swiper myVideos">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/Y0OfeOsMEqU?si=HS_-Ti7oENOws1XU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/rwReol91GUU?si=8O0yizOZi7QYgK4m"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/it8ExwmPQy0?si=2jsfO37SyvGi25O7"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/BEjeKMW8Gr0?si=fAn4RjDji-cBavao"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/aObqvgGE4sI?si=Vyexrw_7zyVc9vh3"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/VNFY-ICuNR4?si=jyYCpbUc3VMOLTNe"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="swiper-slide">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/AEyONzeOApU?si=XLtSn8Y_XXQyej6B"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" style="background-image: url(assets/images/slide-next.svg);">
+                        </div>
+                        <div class="swiper-button-prev" style="background-image: url(assets/images/slide-prev.svg);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="newsletter-service">
+            <div class="container">
+                <div class="newsletter_box">
+                    <div class="newsletter_content">
+                        <h6 class="newsletter_heading">Subscribe To Our <span>Newsletter</span> </h6>
+                        <p class="newsletter_subheading">Enter Your E-Mail id To Get Our Latest Updates and Offers</p>
+                    </div>
+                    <div class="newsletter_form">
+                        <form>
+                            <input type="email" placeholder="Enter your Email" required>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer" style="background-image: url(assets/images/footer-bg.jpg);">
+            <div class="container">
+                <div class="footer_box">
+                    <div class="footer-wrap quick_links">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="menu-footer-menu">
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="the-team.html">The Team</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_logo">
+                        <a href="index.html"><img class="img-fluid" src="assets/images/footer-logo.svg"
+                                alt="Awaken"></a>
+                        <p class="description">
+                            Through well designed exercise programming and eclectic funky grooves AWAKEN guides,
+                            motivates, & inspires people from all walks of life, whether a single mother looking for a
+                            way to take care of urself or a teenager looking to take ur game to the next level, to push
+                            beyond the mental limitations they have placed upon their physical capabilities and show
+                            them what their bodies are truly capable of when they choose to AWAKEN.
+                        </p>
+                        <h4 class="footer-heading">Follow Us</h4>
+                        <ul class="social_links">
+                            <li><a href="https://www.facebook.com/awakenperfomancetraining/" target="_blank"><img class="img-fluid" src="assets/images/facebook.svg"
+                                        alt="Facebook"></a></li>
+                            <li><a href="https://www.instagram.com/awakenperformance/" target="_blank"><img class="img-fluid" src="assets/images/instagram.svg"
+                                        alt="Instagram"></a></li>
+                            <li><a href="mailto:info@awakenperformancetraining.com"><img class="img-fluid"
+                                        src="assets/images/mail.svg" alt="Mail"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-wrap">
+                        <h4 class="footer-heading">Contact</h4>
+                        <ul class="contact-list">
+                            <li>
+                                <a href="https://maps.app.goo.gl/WanoDs5P4hdm2Len6">
+                                    <img class="img-fluid" src="assets/images/location.svg" alt="location">5090 HWY 212
+                                    in Covington, GA 30016.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@awakenperformancetraining.com">
+                                    <img class="img-fluid" src="assets/images/mail.svg"
+                                        alt="mail">info@awakenperformancetraining.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:404-775-4915">
+                                    <img class="img-fluid" src="assets/images/call.svg" alt="call">404-775-4915
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>© 2023 Awakenperformancetraining. All Rights Reserved. Designed And Developed By <a
+                        href="https://ogrelogic.com" target="_blank">Ogrelogic</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/awaken.js"></script>
+</body>
+
+</html>

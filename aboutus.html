@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awaken</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/awaken.svg"> 
+    <!-- Animations AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Custom Styles CSS -->
+    <link rel="stylesheet" href="assets/css/awaken.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <ul class="menu-list">
+                    <li class="menu-item current-menu-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="menu-item"><a href="the-team.html">The Team</a></li>
+                </ul>
+                <div class="site-logo">
+                    <a href="index.html"><img class="img-fluid" src="assets/images/awaken.svg" alt="Awaken" /></a>
+                </div>
+                <ul class="menu-list second">
+                    <li class="menu-item menu-item-has-children">
+                        <a href="services.html">Services</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="general-fitness.html">General Fitness</a></li>
+                            <li class="menu-item"><a href="elite-baseball.html">Elite Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item"><a href="youth-baseball.html">Youth Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item"><a href="athletic.html">Athletic Performance</a></li>
+                            <li class="menu-item"><a href="outdoor.html">Outdoor Batting Cage Rental</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-header-logo-part">
+                <div class="mobile-logo">
+                    <a href="index.html"><img class="img-fluid" src="assets/images/awaken.svg" alt="Awaken" /></a>
+                </div>
+                <div class="mobile-toggle" onclick="hamburger()">
+                    <button class="hamburger hamburger-one"></button>
+                </div>
+            </div>
+            <div class="side-mobile-menu" id="sidemenu">
+                <ul class="menu-list">
+                    <li class="menu-item current-menu-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="menu-item"><a href="the-team.html">The Team</a></li>
+                    <li class="menu-item">
+                        <a href="services.html">Services</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="general-fitness.html">General Fitness</a></li>
+                            <li class="menu-item"><a href="elite-baseball.html">Elite Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item"><a href="youth-baseball.html">Youth Baseball/Softball Performance </a>
+                            </li>
+                            <li class="menu-item"><a href="athletic.html">Athletic Performance</a></li>
+                            <li class="menu-item"><a href="outdoor.html">Outdoor Batting Cage Rental</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="margin-top"></div>
+    <!-- header -->
+
+    <section class="banner-section" style="background-image: url(assets/images/about-banner.jpg);">
+        <h1 class="banner-heading">About Us</h1>
+        <div class="banner-stripe" data-aos="slide-down">
+            <img class="img-fluid" src="assets/images/about-red-stripe1.svg" alt="...">
+        </div>
+    </section>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="about-box">
+                <p class="about-description">
+                    The Awaken facility is divided between two main rooms. The first room is a 900 square foot room that houses traditional power racks, barbells, kettlebells, battle ropes, boxing bags, & cardio fitness equipment. The second connected room features almost 2,000 square feet of open floor space that houses a 70 foot collapsible batting cage.
+                </p>
+                <ul class="about-imgs">
+                    <li data-aos="fade-down"><img class="img-fluid" src="assets/images/about1.jpg" alt="about-img"></li>
+                    <li data-aos="fade-up"><img class="img-fluid" src="assets/images/about2.jpg" alt="about-img"></li>
+                    <li data-aos="fade-down"><img class="img-fluid" src="assets/images/about3.jpg" alt="about-img"></li>
+                    <li data-aos="fade-up"><img class="img-fluid" src="assets/images/about4.jpg" alt="about-img"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-welcome">
+        <div class="container">
+            <div class="welcome_box">
+                <h2 class="welcome_heading" data-aos="fade-down">Welcome & Thank-You for Visiting <span>AWAKEN Performance Training</span>
+                </h2>
+                <p class="welcome_description" data-aos="fade-down">
+                    AWAKEN is the premier metro-atlanta gym located in Covington, GA. AWAKEN offers training for general
+                    fitness clients, athletes from all sports, and also offers sport & position specific soccer,
+                    basketball, football & softball/ baseball lessons. AWAKEN polishes, develops, and builds elite level
+                    human performance for both general fitness clients and athletes. at AWAKEN, we believe that the
+                    human body was made to be beautiful & strong. & made to move with power, grace and fluidity. we aim
+                    to develop and enhance this belief in each client that we work with.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <div class="features-box">
+                <ul class="services_list">
+                    <li class="red" data-aos="fade-down">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/speed-red.svg" alt="speed">
+                                <img class="white-img" src="assets/images/speed-white.svg" alt="speed">
+                            </div>
+                            <h5 class="service_list_heading">Speed & Agility Training</h5>
+                        </a>
+                    </li>
+                    <li class="black" data-aos="fade-up">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/lifestyle-red.svg" alt="lifestyle">
+                                <img class="white-img" src="assets/images/lifestyle-white.svg" alt="lifestyle">
+                            </div>
+                            <h5 class="service_list_heading">Healthy Lifestyle Guidance</h5>
+                        </a>
+                    </li>
+                    <li class="red" data-aos="fade-down">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/sport-red.svg" alt="sport">
+                                <img class="white-img" src="assets/images/sport-white.svg" alt="sport">
+                            </div>
+                            <h5 class="service_list_heading">Sport Specific Training</h5>
+                        </a>
+                    </li>
+                    <li class="black" data-aos="fade-up">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/performance-red.svg" alt="performance">
+                                <img class="white-img" src="assets/images/performance-white.svg" alt="performance">
+                            </div>
+                            <h5 class="service_list_heading">Sports Performance Training</h5>
+                        </a>
+                    </li>
+                    <li class="black" data-aos="fade-down">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/personal-training-red.svg" alt="personal">
+                                <img class="white-img" src="assets/images/personal-training-white.svg" alt="personal">
+                            </div>
+                            <h5 class="service_list_heading">Personal Training</h5>
+                        </a>
+                    </li>
+                    <li class="red"  data-aos="fade-up">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/boxing-red.svg" alt="boxing">
+                                <img class="white-img" src="assets/images/boxing-white.svg" alt="boxing">
+                            </div>
+                            <h5 class="service_list_heading">Boxing Classes</h5>
+                        </a>
+                    </li>
+                    <li class="black" data-aos="fade-down">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/baseball-bat-red.svg" alt="baseball">
+                                <img class="white-img" src="assets/images/baseball-bat-white.svg" alt="baseball">
+                            </div>
+                            <h5 class="service_list_heading">Baseball Hitting Lessons</h5>
+                        </a>
+                    </li>
+                    <li class="red" data-aos="fade-up">
+                        <a href="services.html">
+                            <div class="icon">
+                                <img class="red-img" src="assets/images/baseball-red.svg" alt="baseball">
+                                <img class="white-img" src="assets/images/baseball-white.svg" alt="baseball">
+                            </div>
+                            <h5 class="service_list_heading">Baseball Pitching Lessons</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="stories-section">
+        <div class="overlay-success">
+            <div class="story-stripe" data-aos="slide-down">
+                <img src="assets/images/about-red-stripe2.svg" alt="...">
+            </div>
+            <div class="container">
+                <div class="success-box">
+                    <h2 class="story-heading" data-aos="fade-down">Success Stories</h2>
+                    <ul class="stories-list">
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story1.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story2.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story3.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story4.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story5.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story6.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story7.jpg" alt="success-story"></li>
+                        <li data-aos="fade-down"><img class="img-fluid" src="assets/images/stories-images/story8.jpg" alt="success-story"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="newsletter-service">
+            <div class="container">
+                <div class="newsletter_box">
+                    <div class="newsletter_content">
+                        <h6 class="newsletter_heading">Subscribe To Our <span>Newsletter</span> </h6>
+                        <p class="newsletter_subheading">Enter Your E-Mail id To Get Our Latest Updates and Offers</p>
+                    </div>
+                    <div class="newsletter_form">
+                        <form>
+                            <input type="email" placeholder="Enter your Email" required>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer" style="background-image: url(assets/images/footer-bg.jpg);">
+            <div class="container">
+                <div class="footer_box">
+                    <div class="footer-wrap quick_links">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <ul class="menu-footer-menu">
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="the-team.html">The Team</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_logo">
+                        <a href="index.html"><img class="img-fluid" src="assets/images/footer-logo.svg"
+                                alt="Awaken"></a>
+                        <p class="description">
+                            Through well designed exercise programming and eclectic funky grooves AWAKEN guides,
+                            motivates, & inspires people from all walks of life, whether a single mother looking for a
+                            way to take care of urself or a teenager looking to take ur game to the next level, to push
+                            beyond the mental limitations they have placed upon their physical capabilities and show
+                            them what their bodies are truly capable of when they choose to AWAKEN.
+                        </p>
+                        <h4 class="footer-heading">Follow Us</h4>
+                        <ul class="social_links">
+                            <li><a href="https://www.facebook.com/awakenperfomancetraining/" target="_blank"><img class="img-fluid" src="assets/images/facebook.svg"
+                                        alt="Facebook"></a></li>
+                            <li><a href="https://www.instagram.com/awakenperformance/" target="_blank"><img class="img-fluid" src="assets/images/instagram.svg"
+                                        alt="Instagram"></a></li>
+                            <li><a href="mailto:info@awakenperformancetraining.com"><img class="img-fluid"
+                                        src="assets/images/mail.svg" alt="Mail"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-wrap">
+                        <h4 class="footer-heading">Contact</h4>
+                        <ul class="contact-list">
+                            <li>
+                                <a href="https://maps.app.goo.gl/WanoDs5P4hdm2Len6">
+                                    <img class="img-fluid" src="assets/images/location.svg" alt="location">5090 HWY 212
+                                    in Covington, GA 30016.
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@awakenperformancetraining.com">
+                                    <img class="img-fluid" src="assets/images/mail.svg"
+                                        alt="mail">info@awakenperformancetraining.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:404-775-4915">
+                                    <img class="img-fluid" src="assets/images/call.svg" alt="call">404-775-4915
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>© 2023 Awakenperformancetraining. All Rights Reserved. Designed And Developed By <a
+                        href="https://ogrelogic.com" target="_blank">Ogrelogic</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/awaken.js"></script>
+</body>
+
+</html>
